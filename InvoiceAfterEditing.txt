@@ -1,0 +1,53 @@
+Invoice after Editing:
+{
+    "invoice": {
+      "id": "inv:0-ChALdp-Kr2g9zqoKMTCuTLtEEO8J",
+      "version": 2,
+      "location_id": "DT3C4BTJZRCS3",
+      "order_id": "5k7wpfiroI7QRRK9qHQ4a6VjhQcZY",
+      "payment_requests": [
+        {
+          "uid": "fdfcbc09-ff04-4c5d-ab03-c3e92a3f1d88",
+          "request_type": "BALANCE",
+          "due_date": "2024-02-16",
+          "tipping_enabled": true,
+          "computed_amount_money": {
+            "amount": 4508,
+            "currency": "USD"
+          },
+          "total_completed_amount_money": {
+            "amount": 0,
+            "currency": "USD"
+          },
+          "automatic_payment_source": "NONE"
+        }
+      ],
+      "primary_recipient": {
+        "customer_id": "BBJAKWED9THNQHQ490YZ4QWCBW",
+        "given_name": "Randy",
+        "family_name": "Savage",
+        "email_address": "randysavage1@dakine.com"
+      },
+      "invoice_number": "003764",
+      "title": "Your Photos",
+      "description": "Thank you for the opportunity to capture your memories.",
+      "public_url": "https://squareup.com/pay-invoice/inv:0-ChALdp-Kr2g9zqoKMTCuTLtEEO8J",
+      "next_payment_amount_money": {
+        "amount": 4508,
+        "currency": "USD"
+      },
+      "status": "UNPAID",
+      "timezone": "Pacific/Honolulu",
+      "created_at": "2024-02-14T01:27:27Z",
+      "updated_at": "2024-02-14T01:31:32Z",
+      "accepted_payment_methods": {
+        "card": true,
+        "square_gift_card": true,
+        "bank_account": false,
+        "buy_now_pay_later": false,
+        "cash_app_pay": false
+      },
+      "delivery_method": "SHARE_MANUALLY",
+      "store_payment_method_enabled": false
+    }
+  }

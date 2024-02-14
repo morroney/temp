@@ -1,9 +1,5 @@
 # troubleshooting programmatic orders and invoices
-Temporary Repo for random needs. 
-
-This repository analyzes:
-Order: 5k7wpfiroI7QRRK9qHQ4a6VjhQcZY
-Invoice: inv:0-ChALdp-Kr2g9zqoKMTCuTLtEEO8J
+This repository analyzes: Order: 5k7wpfiroI7QRRK9qHQ4a6VjhQcZY and Invoice: inv:0-ChALdp-Kr2g9zqoKMTCuTLtEEO8J
 
 originalOrder.txt represents the order object after its creation using the programmatic Square API, but before any edits have been made. 
 OriginalInvoice.txt represents the invoice object that was created programmatically, but before any edits have been made. 

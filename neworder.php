@@ -5,7 +5,7 @@
 // PART 1
 // package the order object
 
-// WARNING: Square support may need to change these values. 
+// WARNING: Square support may need to change this value.
 $squaretoken = 'OUR_LIVE_SQUARE_API_KEY';
 
 // NOTE: no need to edit the variables below, they come from our account and will help you test. 
@@ -218,7 +218,7 @@ substr($idempotency_key, 20, 12)
                                    $publishedInvoiceURL = $jsonObjectPubInvoice->invoice->public_url;
                                    $publishedInvoiceID = $jsonObjectPubInvoice->invoice->id;
 
-                                   // continue if we have a new invoice.....
+                                   // code continues if we have a new invoice.....but for the sake of this support request, the example can end here. 
 
                                 }
                             }

@@ -1,7 +1,15 @@
 # troubleshooting programmatic orders and invoices
-This repository analyzes: Order: 5k7wpfiroI7QRRK9qHQ4a6VjhQcZY and Invoice: inv:0-ChALdp-Kr2g9zqoKMTCuTLtEEO8J
+We use the square API to create invoices programmatically, for the purpose of emailing the url to the customer, so they can pay their invoice online. 
 
-originalOrder.txt represents the order object after its creation using the programmatic Square API, but before any edits have been made. 
+We have experienced an issue where, the resulting invoice that is created via the api, returns an error when you try to pay it online. We have to open the invoice in the square app (or on the square website) and re-save it (without changing anything). After the re-save, the invoice CAN be paid online! 
+
+So something is happening during the re-save process, that fills in a missing parameter or something... but it is unclear what that is! 
+
+Please reference case 89356198 to see the full conversation between us and the initial Square Developer support team member, who confirmed he could re-create the issue in his account. 
+
+The examples in this repository analyze the json objects for: Order: 5k7wpfiroI7QRRK9qHQ4a6VjhQcZY and Invoice: inv:0-ChALdp-Kr2g9zqoKMTCuTLtEEO8J
+
+originalOrder.txt represents the order object after its creation using the programmatic Square API, but before any edits have been made via tne square app or square website interface. 
 OriginalInvoice.txt represents the invoice object that was created programmatically, but before any edits have been made. 
 
 OrderAfterInvoice.txt represents the same order object, AFTER the INVOICE was edited on the square website. 
